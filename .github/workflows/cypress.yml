@@ -1,12 +1,12 @@
-name: Cypress Tests em Allure Report
+name: Cypress Tests with Allure Report
 
 on:
   push:
     branches:
-      - main  
+      - main
   pull_request:
     branches:
-      - main  
+      - main
   workflow_dispatch:
 
 jobs:
@@ -27,6 +27,11 @@ jobs:
       - name: 🧪 Executar Testes no Cypress
         run: npm run cy_run
 
+      - name: 🛠️ Instalar o Allure CLI (Para Gerar o Relatório)
+        run: |
+          npm install -g allure-commandline --save-dev
+          echo "$(npm root -g)/allure-commandline/bin" >> $GITHUB_PATH
+
       - name: 🗑️ Limpar e Gerar Relatório Allure
         run: npm run report:pipeline
 
@@ -35,4 +40,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
-
