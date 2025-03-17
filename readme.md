@@ -4,13 +4,13 @@ Este repositório contém a avaliação técnica para a DOT Digital Group, com f
 ##### Contexto do teste:
 Abaixo, estão as instruções para a realização da avaliação técnica.
 O objetivo é conhecermos um pouco mais da sua entrega:
-1-Escolha um site de sua preferência, os fluxos de sua preferência e realize os passos:
-2-Escreva a história do usuário e critérios de aceite
-3-Escreva os casos de testes
-4-Estime o tempo de teste e demonstre como fez o cálculo
-5-[Cypress] Desenvolva os testes automatizados dos fluxos que entender - demonstre a sua escolha
-6-[github actions] Crie o arquivo de pipeline para a execução dos seus testes
-7-[Github] Disponibilize o link do github com seu código versionado
+1. Escolha um site de sua preferência, os fluxos de sua preferência e realize os passos:
+2. Escreva a história do usuário e critérios de aceite
+3. Escreva os casos de testes
+4. Estime o tempo de teste e demonstre como fez o cálculo
+5. [Cypress] Desenvolva os testes automatizados dos fluxos que entender - demonstre a sua escolha
+6. [github actions] Crie o arquivo de pipeline para a execução dos seus testes
+7. [Github] Disponibilize o link do github com seu código versionado
 
 
 
@@ -61,10 +61,11 @@ Para verificar o relatório da última pipeline carregada, **[visite aqui](https
 
 ## Resultado
 Resultado executado com headless: <br>
-![results](image-1.png)
+![results](docs/image-1.png)
 
-#### 📄 Para visualizar o relatório completo,[ clique aqui](docs/relatorio.pdf)
+#### 📄 Para visualizar o relatório completo, ([clique aqui](https://github.com/Rafatrl/automa_DOT/blob/master/docs/relat%C3%B3rio.pdf))
+
 
 #### EXTRAS
 ##### Vídeos dos testes manuais, vá na pasta: /docs/testes manuais/
-##### Exemplo de template de bug, vá na pasta: /docs/Bugs encontrados.pdf
+##### Exemplo de template de bug, ([clique aqui](https://github.com/Rafatrl/automa_DOT/blob/master/docs/Bugs%20encontrados.pdf))
